@@ -24,6 +24,9 @@
         .colbtn{
             border-right:1px solid rgb(59, 58, 58);
         }
+        .price{
+            color: rgb(92, 53, 1);
+        }
     </style>
 </head>
 <body>
@@ -177,6 +180,75 @@
         
      </div>
     <!-- Popular car end -->
+
+    <!-- Top offers start -->
+ 
+    <div class="container mt-5 p-5 ">
+        <div class="row justify-content-evenly ">
+            <div class="col"><h4 class="fw-bold text-white ">Top offers</h4></div>
+            <div class="col"> <p class="text-end text-muted ">View all offers <i class="bi bi-arrow-right-short"></i></p></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card border-0 ">
+                    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/cardIMg.jpg" class="w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/cardIMg.jpg" class="w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/cardIMg.jpg" class="w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark text-white  p-3">
+                        <div class="row">
+                            <div class="col"><p>2015</p></div>
+                            <div class="col text-end"><input type="checkbox" class="form-check-input "> Compare</div>    
+                        </div>
+                        <h5 class="fw-bold text-muted">Mercedes Benz Convertible Coupe</h5>
+                        <p class="text-warning fw-bold ">$25,800</p>
+                        <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> New York</p>
+                    </div>
+                    <div class="card-footer bg-dark ">
+                        <div class="row justify-content-between ">
+                            <div class="col-3 rowborder text-center m-2">
+                                <h4 class="text-white  fw-bold"><i class="bi bi-speedometer2"></i></h4>
+                                <p class="text-white">48K mi</p>
+                            </div>
+                            <div class="col-3 rowborder text-center m-2">
+                                <h4 class="text-white  fw-bold"><i class="bi bi-bezier"></i></h4>
+                                <p class="text-white">Automatic</p>
+                            </div>
+                            <div class="col-3 rowborder text-center m-2">
+                                <h4 class="text-white  fw-bold"><i class="bi bi-fuel-pump-diesel"></i></h4>
+                                <p class="text-white">Gasoline</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="col">
+                <div class="card">
+                    <img src="./img/cardslayd.webp" class="card-img-bottom  " alt="">
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Top offers end -->
+       
 
     
     <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
